@@ -6,8 +6,23 @@
   justify-content: center;
   gap: 12px;
 }
+@media (max-width: 768px) {
+  .custom_container .row {
+    flex-wrap: wrap;
+  }
+}
 .custom_container .row .col {
   width: 11.5%;
+}
+@media (max-width: 768px) {
+  .custom_container .row .col {
+    width: 20%;
+  }
+}
+@media (max-width: 550px) {
+  .custom_container .row .col {
+    width: 48%;
+  }
 }
 .custom_container .row .col .box {
   background: #e9e9e9;
