@@ -58,6 +58,11 @@
   box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, 0.3607843137);
   border: 5px solid white;
 }
+@media (max-width: 650px) {
+  .custom_container .row .col .box {
+    padding: 3px;
+  }
+}
 .custom_container .row .col .box label {
   font-size: 16px;
   font-family: system-ui;
