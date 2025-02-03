@@ -10,6 +10,7 @@
 @media (max-width: 768px) {
   .custom_container .row {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .custom_container .row .col {
