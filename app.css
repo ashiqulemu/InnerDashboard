@@ -61,6 +61,7 @@
 @media (max-width: 650px) {
   .custom_container .row .col .box {
     padding: 3px;
+    border: 2px solid white;
   }
 }
 .custom_container .row .col .box label {
