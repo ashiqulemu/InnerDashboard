@@ -34,7 +34,7 @@
 }
 @media (min-width: 426px) and (max-width: 599px) {
   .custom_container .row .col {
-    width: 22%;
+    width: 24%;
   }
 }
 @media (max-width: 425px) {
