@@ -3,11 +3,11 @@
 }
 .custom_container .row {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .custom_container .row {
     flex-wrap: wrap;
     justify-content: center;
@@ -16,14 +16,19 @@
 .custom_container .row .col {
   width: 11.5%;
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .custom_container .row .col {
+    width: 18.7%;
+  }
+}
 @media (max-width: 768px) {
   .custom_container .row .col {
     width: 20%;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .custom_container .row .col {
-    width: 48%;
+    width: 23%;
   }
 }
 .custom_container .row .col .box {
