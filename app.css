@@ -3,8 +3,9 @@
 }
 .custom_container .row {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 12px;
+  flex-wrap: wrap;
 }
 @media (max-width: 768px) {
   .custom_container .row {
@@ -41,15 +42,15 @@
 }
 
 .d-flex {
-  display: flex;
+  display: flex !important;
 }
 
 .aic {
-  align-items: center;
+  align-items: center !important;
 }
 
 .jcc {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 .mt-5 {
@@ -64,4 +65,12 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+}
+
+.py-5 {
+  padding: 35px;
+}
+
+.pb-5 {
+  padding-bottom: 35px;
 }/*# sourceMappingURL=app.css.map */
