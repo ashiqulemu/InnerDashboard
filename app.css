@@ -31,14 +31,14 @@
     width: 23%;
   }
 }
-@media (max-width: 425px) {
+@media (min-width: 426px) and (max-width: 599px) {
   .custom_container .row .col {
-    width: 22.8%;
+    width: 22%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .custom_container .row .col {
-    width: 21.8%;
+    width: 22.5%;
   }
 }
 @media (max-width: 320px) {

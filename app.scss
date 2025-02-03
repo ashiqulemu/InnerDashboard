@@ -30,13 +30,15 @@
               width: 23%;
            }
 
+           @media(min-width:426px) and (max-width:599px) {
+            width: 22%;
+         }
+
            @media(max-width:425px) {
-              width: 22.8%;
+             width: 22.5%;
            }
 
-           @media(max-width:375px) {
-              width: 21.8%;
-           }
+           
 
            @media(max-width:320px) {
               width: 47.9%;
