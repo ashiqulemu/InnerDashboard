@@ -81,7 +81,7 @@
 }
 @media (max-width: 600px) {
   .custom_container .row .col .box label {
-    font-size: 12px;
+    font-size: 13px;
     height: 26px;
   }
 }
