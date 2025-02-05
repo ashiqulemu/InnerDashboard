@@ -15,16 +15,16 @@
   }
 }
 .custom_container .row .col {
-  width: 11.5%;
+  width: 15%;
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .custom_container .row .col {
-    width: 18.7%;
+    width: 23%;
   }
 }
 @media (max-width: 768px) {
   .custom_container .row .col {
-    width: 20%;
+    width: 32%;
   }
 }
 @media (max-width: 600px) {
@@ -34,12 +34,12 @@
 }
 @media (min-width: 426px) and (max-width: 599px) {
   .custom_container .row .col {
-    width: 24%;
+    width: 30%;
   }
 }
 @media (max-width: 425px) {
   .custom_container .row .col {
-    width: 22.5%;
+    width: 30%;
   }
 }
 @media (max-width: 320px) {
@@ -51,9 +51,7 @@
   background: #e9e9e9;
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
   text-align: center;
-  padding: 10px;
   border-radius: 5px;
   box-shadow: -1px 2px 7px 0px rgba(0, 0, 0, 0.3607843137);
   border: 5px solid white;
@@ -65,13 +63,26 @@
   }
 }
 .custom_container .row .col .box label {
-  font-size: 16px;
   font-family: system-ui;
   word-wrap: break-word;
+  height: 40px;
+  font-size: 15px;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  line-clamp: 2;
+  align-items: center;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  padding: 4px;
+  -webkit-line-clamp: 2;
 }
 @media (max-width: 600px) {
   .custom_container .row .col .box label {
     font-size: 12px;
+    height: 30px;
   }
 }
 
